@@ -12,10 +12,6 @@ a {
   color: lightgrey;
 }
 
-.cat {
-  opacity: 1;
-}
-
 .inverse {
   color: black;
 }
@@ -30,13 +26,25 @@ a {
 }
 
 @-webkit-keyframes title {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
   to {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
     color: red;
   }
 }
 
 @keyframes title {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
   to {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
     color: red;
   }
 }

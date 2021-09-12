@@ -14,12 +14,8 @@ a {
   color: lightgrey;
 }
 
-.cat {
-  opacity: 1;
-}
-
 .inverse {
-color: black;
+  color: black;
 
   a {
     text-decoration:underline;
@@ -32,7 +28,11 @@ color: black;
 }
 
 @keyframes title {
+  from {
+    transform: translateX(0);
+  }
   to {
+    transform: translateX(20px);
     color: red;
   }
 }
