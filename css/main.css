@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto 200px;
+  color: lightgrey;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.cat {
+  opacity: 1;
+}
+
+.inverse {
+  color: black;
+}
+
+.inverse a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.off-text-decoration {
+  text-decoration: none;
+}
+
+@-webkit-keyframes title {
+  to {
+    color: red;
+  }
+}
+
+@keyframes title {
+  to {
+    color: red;
+  }
+}
+/*# sourceMappingURL=main.css.map */

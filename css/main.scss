@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto 200px;
+
+  color: lightgrey;
+
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.cat {
+  opacity: 1;
+}
+
+.inverse {
+color: black;
+
+  a {
+    text-decoration:underline;
+    color: blue;
+  } 
+}
+
+.off-text-decoration {
+  text-decoration: none;
+}
+
+@keyframes title {
+  to {
+    color: red;
+  }
+}
